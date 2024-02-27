@@ -1,0 +1,10 @@
+logger:
+  development: true
+  level: "info"
+  encoding: "console"
+grpc:
+  targets:
+    auth: "localhost:9010"
+http:
+  targets:
+    users: "http://localhost:8021/v1"
